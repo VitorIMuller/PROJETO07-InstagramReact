@@ -1,10 +1,18 @@
+import imgMeowed from "./meowed.svg";
+import imgBarked from "./barked.svg";
+import imgGato from "./gato-telefone.svg";
+import imgDog from "./dog.svg";
+import imgAdorable from "./adorable_animals.svg";
+import imgRespondeai from "./respondeai.svg";
+
+
 export default function Posts(){
     return(
         <div class="posts">
             <div class="post">
               <div class="topo">
                 <div class="usuario">
-                  <img src="assets/img/meowed.svg" />
+                  <img src={imgMeowed} />
                   meowed
                 </div>
                 <div class="acoes">
@@ -13,7 +21,7 @@ export default function Posts(){
               </div>
 
               <div class="conteudo">
-                <img src="assets/img/gato-telefone.svg" />
+                <img src={imgGato} />
               </div>
 
               <div class="fundo">
@@ -29,7 +37,7 @@ export default function Posts(){
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/respondeai.svg" />
+                  <img src={imgRespondeai} />
                   <div class="texto">
                     Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                   </div>
@@ -40,7 +48,7 @@ export default function Posts(){
             <div class="post">
               <div class="topo">
                 <div class="usuario">
-                  <img src="assets/img/barked.svg" />
+                  <img src={imgBarked} />
                   barked
                 </div>
                 <div class="acoes">
@@ -49,7 +57,7 @@ export default function Posts(){
               </div>
 
               <div class="conteudo">
-                <img src="assets/img/dog.svg" />
+                <img src={imgDog} />
               </div>
 
               <div class="fundo">
@@ -65,7 +73,7 @@ export default function Posts(){
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/adorable_animals.svg" />
+                  <img src={imgAdorable} />
                   <div class="texto">
                     Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
                   </div>

@@ -11,6 +11,10 @@ body {
   font-size: 14px;
 }
 
+.root{
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -80,15 +84,18 @@ body {
   width: 935px;
   margin: 0 auto;
   margin-top: 88px;
+  
 }
 
 .esquerda {
   width: 100%;
   max-width: 614px;
+  
 }
 
 .sidebar {
   width: 293px;
+  position: absolute;
 }
 
 .stories {
