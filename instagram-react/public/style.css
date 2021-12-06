@@ -277,6 +277,7 @@ body {
 .sidebar .sugestoes .seguir {
   color: #139EF2;
   font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidebar .sugestoes .sugestao .usuario .texto {
@@ -315,6 +316,99 @@ body {
 
 .logo-mobile, .instagram-mobile {
   display: none !important;
+}
+
+.curtidas{
+  display: flex;
+  align-items: center;
+  padding: 0 16px 13px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+
+}
+.curtidas img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.story .imagem{
+  background-image: url('../src/assets/stories_background.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  width: 66px;
+}
+.sidebar {
+  padding-top: 24px;
+  position: sticky;
+  top: 88px;
+}
+
+.sidebar > .usuario {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar > .usuario img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.sidebar > .usuario .texto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  font-weight: 300;
+  color: #8E8E8E;
+}
+
+.sidebar > .usuario .texto strong {
+  font-weight: 500;
+  color: #262626;
+}
+
+.sidebar .sugestoes .titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 14px;
+}
+
+.sidebar .sugestoes .sugestao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 31px;
+  margin-bottom: 16px;
+}
+
+.sidebar .sugestoes .sugestao .usuario {
+  display: flex;
+}
+
+.sidebar .sugestoes img {
+  width: 32px;
+  height: 32px;
+}
+
+.sidebar .sugestoes .seguir {
+  color: #139EF2;
+  font-weight: 600;
+}
+
+.sidebar .sugestoes .sugestao .usuario .texto {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar .sugestoes .sugestao .usuario .texto :last-child {
+  color: #8E8E8E;
+  font-weight: 400;
 }
 
 @media (max-width: 935px) {

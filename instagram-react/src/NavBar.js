@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./assets/logo.png";
 
 
 export default function NavBar(){
@@ -16,7 +16,7 @@ export default function NavBar(){
             </div>
 
             <div class="instagram-mobile">
-                <img src="assets/img/logo.png" />
+                <img src="/logo.png" />
             </div>
     
             <div class="pesquisa">
